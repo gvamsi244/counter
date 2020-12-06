@@ -1,0 +1,45 @@
+.counter {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("CounterWallpaper6.jpg");
+    /* background-color: grey; */
+}
+
+.buttonGridTable {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+}
+
+button {
+    background-color: cornflowerblue;
+    /* padding: 10px 10px 10px 10px; */
+    font-size: 20px;
+    color: black;
+    width: 80px;
+    height: 50px;
+}
+
+.countDisplayField {
+    font-size: 50px;
+    background-color: hsl(241, 100%, 20%);
+    color: hsl(211, 51%, 92%);
+    width: 100%;
+    margin-left: 120px;
+}
+
+.resetButton {
+    background-color: brown;
+    color: lightyellow;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.copyRightsFooter {
+    margin-left: 1450px;
+    font-weight: bold;
+}
