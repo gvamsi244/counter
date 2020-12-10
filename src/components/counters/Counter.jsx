@@ -49,7 +49,7 @@ class Counter extends Component {
           </div>
         </table>
         <div><br /></div><div><br /></div>
-        <footer className="copyRightsFooter"> &copy; Copyright 2020-2022 by Vamsi All Rights Reserved</footer>
+        <footer className="copyRightsFooter"> &copy; Copyright 2020-2022 by Vamsi. All Rights Reserved.</footer>
 
       </div>
     );
