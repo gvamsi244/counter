@@ -22,25 +22,24 @@ button {
     color: black;
     width: 80px;
     height: 50px;
+    max-width: 80px;
+    max-height: 80px;
 }
 
-.countDisplayField {
+.countDisplayFieldDiv {
+    margin: 10px 0px;
     font-size: 50px;
-    background-color: hsl(241, 100%, 20%);
-    color: hsl(211, 51%, 92%);
-    width: 100%;
-    margin-left: 120px;
+}
+
+.countDisplayFieldSpan {
+    background-color: hsl(54, 58%, 80%);
+    /* font-weight: bold; */
+    color: hsl(216, 100%, 1%);
 }
 
 .resetButton {
     background-color: brown;
     color: lightyellow;
     width: 100%;
-    margin-left: 50px;
+    align-content: center;
 }
-
-
-/* .copyRightsFooter {
-    margin-left: 450px;
-    font-weight: bold;
-} */

@@ -16,7 +16,7 @@ class Counter extends Component {
     return (
       <div className="counter">
         <h1> Counter Machine </h1>
-        <table cellSpacing="0px" className="buttonGridTable">
+        <table className="buttonGridTable">
           <tr>
             <td> <CounterButton by={+1} incrementMethod={this.increment}> </CounterButton> </td>
             <td> <CounterButton by={-1} incrementMethod={this.increment}> </CounterButton> </td>
@@ -41,13 +41,18 @@ class Counter extends Component {
             <td> <CounterButton by={+100} incrementMethod={this.increment}> </CounterButton> </td>
             <td> <CounterButton by={-100} incrementMethod={this.increment}> </CounterButton> </td>
           </tr>
-          <div><br /></div>
-          <span className="countDisplayField"> {this.state.counter} </span>
-          <div>
-            <br/>
-            <button className="resetButton" onClick={this.reset}> Reset </button>
+          </table>
+          
+          <div className="countDisplayFieldDiv">
+            <span className="countDisplayFieldSpan"> {this.state.counter} </span>
           </div>
-        </table>
+            
+
+        
+              <button className="resetButton" onClick={this.reset}> Reset </button>
+          
+
+        
         <div><br /></div><div><br /></div>
         <footer className="copyRightsFooter"> &copy; Copyright 2020-2022 by Vamsi. All Rights Reserved.</footer>
 
