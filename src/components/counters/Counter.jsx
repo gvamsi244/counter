@@ -15,7 +15,7 @@ class Counter extends Component {
   render() {
     return (
       <div className="counter">
-        <h1> Counter Machine </h1>
+        <h1> Counter Machinee </h1>
         <table className="buttonGridTable">
           <tr>
             <td> <CounterButton by={+1} incrementMethod={this.increment}> </CounterButton> </td>
